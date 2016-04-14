@@ -81,9 +81,9 @@
 
 #using the fread() command load the data into an R object DT Which of the following is the fastest way to calculate the average value of the variable pwgtp15 broken down by sex using the data.table package?
 
-# A mean(DT\(pwgtp15,by=DT\)SEX)
-# B tapply(DT\(pwgtp15,DT\)SEX,mean)
-# C mean(DT[DT$SEX==1,]\(pwgtp15); mean(DT[DT\)SEX==2,]$pwgtp15)
-# D rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]
-# E DT[,mean(pwgtp15),by=SEX]
-# F sapply(split(DT\(pwgtp15,DT\)SEX),mean)
+ A mean(DT\(pwgtp15,by=DT\)SEX)
+ B tapply(DT\(pwgtp15,DT\)SEX,mean)
+ C mean(DT[DT$SEX==1,]\(pwgtp15); mean(DT[DT\)SEX==2,]$pwgtp15)
+ D rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]
+ E DT[,mean(pwgtp15),by=SEX]
+ F sapply(split(DT\(pwgtp15,DT\)SEX),mean)
