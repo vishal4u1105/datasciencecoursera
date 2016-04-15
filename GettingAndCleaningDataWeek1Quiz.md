@@ -1,6 +1,12 @@
 <style type="text/css">
     ol { list-style-type: upper-alpha; }
     </style>
+
+1. Item 1
+2. Item 2
+3. Item 3
+ * Item 3a
+  * Item 3b
 ## Question 1
 The American Community Survey distributes downloadable data about United States communities. Download the 2006 microdata survey about housing for the state of Idaho using download.file() from here:
 
