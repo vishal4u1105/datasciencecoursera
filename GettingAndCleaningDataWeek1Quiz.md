@@ -39,12 +39,12 @@ Read rows 18-23 and columns 7-15 into R and assign the result to a variable call
 What is the value of: `sum(dat$Zip*dat$Ext,na.rm=T)`
 
 (original data source: http://catalog.data.gov/dataset/natural-gas-acquisition-program)
-```
- A 154339
- B 0
- C NA
- D 36534720
-```
+
+A. 154339  
+B. 0  
+C. NA  
+D. 36534720  
+
 ```javascript
 Solution
 > url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx"
@@ -59,12 +59,12 @@ Read the XML data on Baltimore restaurants from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml
 
 How many restaurants have zipcode 21231?
-```
- A 127
- B 100
- C 17
- D 130
-```
+
+A. 127  
+B. 100  
+C. 17  
+D. 130  
+
 Solution
 ```javascript
 > url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
@@ -82,11 +82,11 @@ The American Community Survey distributes downloadable data about United States 
 https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv
 
 using the fread() command load the data into an R object DT Which of the following is the fastest way to calculate the average value of the variable pwgtp15 broken down by sex using the data.table package?
-```
- A mean(DT\(pwgtp15,by=DT\)SEX)
- B tapply(DT\(pwgtp15,DT\)SEX,mean)
- C mean(DT[DT$SEX==1,]\(pwgtp15); mean(DT[DT\)SEX==2,]$pwgtp15)
- D rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]
- E DT[,mean(pwgtp15),by=SEX]
- F sapply(split(DT\(pwgtp15,DT\)SEX),mean)
- ```
+
+A. mean(DT$pwgtp15,by=DT$SEX) 
+B. tapply(DT$pwgtp15,DT$SEX,mean)  
+C. mean(DT[DT$SEX==1,]$pwgtp15),mean(DT[DT$SEX==2,]$pwgtp15)    
+D. sapply(DT$pwgtp15,DT$SEX),mean)    
+E. DT[,mean(pwgtp15),by=SEX]  
+F. sapply(split(DT$pwgtp15,DT$SEX),mean)    
+
