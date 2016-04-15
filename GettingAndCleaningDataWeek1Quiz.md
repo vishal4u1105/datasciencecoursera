@@ -1,31 +1,31 @@
 ## Question 1
-#The American Community Survey distributes downloadable data about United States communities. Download the 2006 microdata survey about housing for the state of Idaho using download.file() from here:
+######The American Community Survey distributes downloadable data about United States communities. Download the 2006 microdata survey about housing for the state of Idaho using download.file() from here:
 
-#https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv
+(https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv)
 
-#and load the data into R. The code book, describing the variable names is here:
+######and load the data into R. The code book, describing the variable names is here:
 
-#https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf
+(https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf)
 
-#How many housing units in this survey were worth more than $1,000,000?
+######How many housing units in this survey were worth more than $1,000,000?
 
-# A 47
-# B 53
-# C 164
-# D 31
+ A. 47
+ B. 53
+ C. 164
+ D. 31
 
-# Solution
+###### Solution
 
-#> url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv"
-#> download.file(url, destfile="./Que1.csv")
-#> Data <- read.table("./Que1.csv", sep=",", header=T)
-#> library(dplyr)
-#> count(filter(Data, VAL==24))
-#Source: local data frame [1 x 1]
+> url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv"
+> download.file(url, destfile="./Que1.csv")
+> Data <- read.table("./Que1.csv", sep=",", header=T)
+> library(dplyr)
+> count(filter(Data, VAL==24))
+Source: local data frame [1 x 1]
 
-#      n
-#  (int)
-#1    53
+######      n
+######  (int)
+######1    53
 
 
 ## Question 3
