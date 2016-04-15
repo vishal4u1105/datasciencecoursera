@@ -1,12 +1,3 @@
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-    </style>
-
-1. Item 1
-2. Item 2
-3. Item 3
- * Item 3a
-  * Item 3b
 ## Question 1
 The American Community Survey distributes downloadable data about United States communities. Download the 2006 microdata survey about housing for the state of Idaho using download.file() from here:
 
@@ -18,10 +9,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf
 
 How many housing units in this survey were worth more than $1,000,000?
 
-A. 47
-B. 53
-C. 164
-D. 31
+A. 47  
+B. 53  
+C. 164  
+D. 31  
 
  Solution
 ```javascript
