@@ -9,10 +9,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf
 
 How many housing units in this survey were worth more than $1,000,000?
 
--[A. 47
-- B. 53
- C. 164
- D. 31
+-A. 47
+-B. 53
+-C. 164
+-D. 31
 
  Solution
 ```javascript
